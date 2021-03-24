@@ -1,0 +1,85 @@
+import { data } from 'autoprefixer'
+import React from 'react'
+
+export const ProjectList = () => {
+
+
+    const data = [{
+        id: "1",
+        imgUrl: "/assets/dukan.png",
+        name: "My Dukan",
+        about: "An Ecommrce Store",
+        stack: ["ReactJS"],
+        codeUrl: "https://github.com/vipansh/mydukan",
+        link: "https://mydukan-vipansh.vercel.app/"
+
+    }, {
+        id: "2",
+        imgUrl: "/assets/socialmedia.png",
+        name: "Social Media App",
+        about: "Its a social media app where you can create accoumnt post Image , like & comment on others post. Made this project to learn about CURD operation",
+        stack: ["ReactJS", "Firebase"],
+        codeUrl: "https://github.com/vipansh/social-media-app",
+        link: "https://social-media-app-vipansh.vercel.app/"
+    }, {
+        id: "3",
+        imgUrl: "/assets/meform.png",
+        name: "Me Form",
+        about: "This is a projet where user can create and manage survey. Create a acount and start making surveys ",
+        stack: ["ReactJS", "Firebase"],
+        link: "https://my-form-one.vercel.app/",
+        codeUrl: "https://github.com/vipansh/my-form"
+    }, {
+        id: "4",
+        imgUrl: "/assets/movieticket.png",
+        name: "Movie Booking",
+        about: "User can book a movie ticket and see their bookings.",
+        stack: ["ReactJS"],
+        codeUrl: "https://github.com/vipansh/movie-ticket-",
+        link: "https://movie-ticket-wheat.vercel.app/",
+
+    }, {
+        id: "5",
+        imgUrl: "/assets/lightout.png",
+        name: "Light out Game",
+        about: "Lights Out is a puzzle game consisting of a grid of lights. Click on any of them to turn it and the four direct neighboring lights off or on.",
+
+        stack: ["ReactJS"],
+        link: "https://light-out-game-vipansh.vercel.app/",
+        codeUrl: "https://github.com/vipansh/light-out-game"
+    }]
+
+
+
+    return (
+        <section className="text-gray-300 body-font">
+            <div className="container px-5 py-24 mx-auto">
+                <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900    flex justify-center align-center my-4">Stuff I've Built</h1>
+                <div className="flex flex-wrap md:m-4">
+                    {data.map(((data, i) => {
+                        return (
+                            <div className="lg:w-1/2 md:w-full  md:p-12 my-4  w-full" key={i}>
+                                <div className="block relative  rounded-md overflow-hidden">
+                                    <img alt={data.name} className="object-cover object-center w-full h-full block" src={data.imgUrl} />
+                                </div>
+                                <div className="mt-4">
+                                    <h2 className="text-gray-900 title-font  font-bold text-xl ">{data.name}</h2>
+                                    <h2 className="text-gray-800 title-font text-lg font-medium lg:min-h-14">{data.about}</h2>
+                                    {data.stack.map((stack, i) => {
+                                        return <span className="m-1 text-sm" key={i}>{stack}</span>
+                                    })}
+                                </div>
+                                <div className="flex justify-between my-2">
+                                    <a rel="noopener noreferrer" href={data.link} className="no-underline  py-2 px-4 md:px-8 bg-gray-800 text-lg  text-red-100 rounded-lg"><span className="btn-shine"> Live demo </span></a>
+                                    <a rel="noopener noreferrer" href={data.codeUrl} className="no-underline  py-2 px-4 md:px-8 bg-gray-800 text-lg  text-red-100 rounded-lg ">View Code</a>
+
+                                </div>
+                            </div>
+                        )
+                    }))}
+                </div>
+            </div>
+        </section>
+
+    )
+}
