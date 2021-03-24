@@ -6,7 +6,7 @@
 
 .allchildren {
   color: rgb(0, 0, 0);
-  background: #4e54c8;
+  background: #a1a6ff;
 }
 
 .area {
@@ -156,5 +156,15 @@
   }
   100% {
     background-position: 180px;
+  }
+}
+
+.containerMd {
+  width: 80%;
+}
+
+@media only screen and (max-width: 425px){
+	.containerMd {
+    width: 100%;
   }
 }

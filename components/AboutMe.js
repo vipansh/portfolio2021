@@ -6,7 +6,7 @@ export const AboutMe = () => {
 
 
         < section className="text-gray-300 body-font" >
-            <div className="container px-5 py-24 mx-auto flex flex-col md:flex-row ">
+            <div className="containerMd px-5 py-24 mx-auto flex flex-col md:flex-row ">
                 <div className=" w-full lg:w-1/2 mb-10 lg:mb-0 rounded-lg h-1/2 overflow-hidden p-4">
                     <img alt="feature" className="object-cover object-center rounded-lg  w-full" src="assets/mypic.jpeg" />
                 </div>

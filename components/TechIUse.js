@@ -2,8 +2,8 @@ import React from 'react'
 
 export const TechIUse = () => {
     return (
-        <section className="text-gray-900 body-font container mx-auto">
-            <div className="container px-5 py-24 mx-auto flex flex-wrap">
+        <section className="text-gray-900 body-font ">
+            <div className="containerMd px-5 py-24 mx-auto flex flex-wrap">
                 <div className=" w-full mb-20 ">
                     <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900  lg:mb-0 mb-4 flex justify-center align-center">SKILLS & TOOLS</h1>
 
