@@ -70,8 +70,8 @@ export const ProjectList = () => {
                                     })}
                                 </div>
                                 <div className="flex justify-between my-2">
-                                    <a rel="noopener noreferrer" href={data.link} className="no-underline  py-2 px-4 md:px-8 bg-gray-800 text-lg  text-red-100 rounded-lg"><span className="btn-shine"> Live demo </span></a>
-                                    <a rel="noopener noreferrer" href={data.codeUrl} className="no-underline  py-2 px-4 md:px-8 bg-gray-800 text-lg  text-red-100 rounded-lg ">View Code</a>
+                                    <a rel="noopener noreferrer"  target="_blank" href={data.link} className="no-underline  py-2 px-4 md:px-8 bg-gray-800 text-lg  text-red-100 rounded-lg"><span className="btn-shine"> Live demo </span></a>
+                                    <a rel="noopener noreferrer"  target="_blank" href={data.codeUrl} className="no-underline  py-2 px-4 md:px-8 bg-gray-800 text-lg  text-red-100 rounded-lg ">View Code</a>
 
                                 </div>
                             </div>
