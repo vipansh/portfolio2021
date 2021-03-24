@@ -17,7 +17,7 @@ export const ProjectList = () => {
         id: "2",
         imgUrl: "/assets/socialmedia.png",
         name: "Social Media App",
-        about: "Its a social media app where you can create accoumnt post Image , like & comment on others post. Made this project to learn about CURD operation",
+        about: "It's a social media app where you can create an account, post Images, like & comment on other's posts. Did this project to learn about CURD operation.",
         stack: ["ReactJS", "Firebase"],
         codeUrl: "https://github.com/vipansh/social-media-app",
         link: "https://social-media-app-vipansh.vercel.app/"
@@ -25,7 +25,7 @@ export const ProjectList = () => {
         id: "3",
         imgUrl: "/assets/meform.png",
         name: "Me Form",
-        about: "This is a projet where user can create and manage survey. Create a acount and start making surveys ",
+        about: "This is a project where users can create and manage the survey. Create an account and start making surveys ",
         stack: ["ReactJS", "Firebase"],
         link: "https://my-form-one.vercel.app/",
         codeUrl: "https://github.com/vipansh/my-form"
@@ -33,7 +33,7 @@ export const ProjectList = () => {
         id: "4",
         imgUrl: "/assets/movieticket.png",
         name: "Movie Booking",
-        about: "User can book a movie ticket and see their bookings.",
+        about: "Users can book a movie ticket and see their bookings.",
         stack: ["ReactJS"],
         codeUrl: "https://github.com/vipansh/movie-ticket-",
         link: "https://movie-ticket-wheat.vercel.app/",
@@ -42,7 +42,7 @@ export const ProjectList = () => {
         id: "5",
         imgUrl: "/assets/lightout.png",
         name: "Light out Game",
-        about: "Lights Out is a puzzle game consisting of a grid of lights. Click on any of them to turn it and the four direct neighboring lights off or on.",
+        about: "Lights Out is a puzzle game consisting of a grid of lights. Click on any of them to turn it and the four direct neighbouring lights off or on.",
 
         stack: ["ReactJS"],
         link: "https://light-out-game-vipansh.vercel.app/",
