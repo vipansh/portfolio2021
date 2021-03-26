@@ -8,7 +8,7 @@ export const ProjectList = () => {
         id: "1",
         imgUrl: "/assets/dukan.png",
         name: "My Dukan",
-        about: "An Ecommrce Store",
+        about: "An eCommerce Store",
         stack: ["ReactJS"],
         codeUrl: "https://github.com/vipansh/mydukan",
         link: "https://mydukan-vipansh.vercel.app/"
