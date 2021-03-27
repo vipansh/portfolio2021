@@ -13,7 +13,7 @@ export const AboutMe = () => {
                 <div className=" w-full flex-wrap lg:w-auto mx-4 p-4 flex justify-center align-center m-auto">
                     <div className="w-full text-xl font-medium text-center md:text-left text-text-primary sm:text-2xl md:text-3xl lg:text-4xl">About Me</div>
                     <div >
-                        <p className="text-lg my-16 font-normal sm:text-xl lg:text-2xl xl:text-2-5xl text-text-secondary1">   I am a self-taught front end developer looking for a role in an exciting company.</p>
+                        <p className="text-lg my-16 font-normal sm:text-xl lg:text-2xl xl:text-2-5xl text-text-secondary1">  I am a self-taught front-end developer looking for a role in an exciting company.</p>
 
                         <p className="text-lg my-16 font-normal sm:text-xl lg:text-2xl xl:text-2-5xl text-text-secondary1">      When writing Javscript, I prefer React.       </p>
 

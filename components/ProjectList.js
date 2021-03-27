@@ -25,7 +25,7 @@ export const ProjectList = () => {
         id: "3",
         imgUrl: "/assets/meform.png",
         name: "Me Form",
-        about: "This is a project where users can create and manage the survey. Create an account and start making surveys ",
+        about: "This is a project where users can create and manage the survey. Create an account and start taking surveys ",
         stack: ["ReactJS", "Firebase"],
         link: "https://my-form-one.vercel.app/",
         codeUrl: "https://github.com/vipansh/my-form"
