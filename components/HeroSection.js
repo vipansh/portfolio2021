@@ -10,8 +10,8 @@ export const HeroSection = () => {
                     <br className="inline-block" /> A Front End Developer
                  </h1>
                     <p className="mb-8 leading-relaxed"></p>
-                    <div className="flex justify-center">
-                        <a href="https://drive.google.com/file/d/1R0vwMoyBxZc-Gk50KiJa1YYNzhUVVvZN/view?usp=sharing" target="_blank" className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">My Resume</a>
+                    <div className="flex justify-center relative z-10">
+                        <a className="cursor-pointer" href="https://drive.google.com/file/d/1R0vwMoyBxZc-Gk50KiJa1YYNzhUVVvZN/view?usp=sharing" target="_blank" className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">My Resume</a>
 
                     </div>
                 </div>

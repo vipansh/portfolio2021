@@ -60,7 +60,7 @@ export const ProjectList = () => {
                         return (
                             <div className="lg:w-1/2 md:w-full  md:p-12 my-4  w-full" key={i}>
                                 <div className="block relative  rounded-md overflow-hidden">
-                                    <img alt={data.name} className="object-cover object-center w-full h-full block" src={data.imgUrl} />
+                                    <a rel="noopener noreferrer" target="_blank" href={data.link}>   <img alt={data.name} className="object-cover object-center w-full h-full block" src={data.imgUrl} /></a>
                                 </div>
                                 <div className="mt-4">
                                     <h2 className="text-gray-900 title-font  font-bold text-xl ">{data.name}</h2>
@@ -70,8 +70,8 @@ export const ProjectList = () => {
                                     })}
                                 </div>
                                 <div className="flex justify-between my-2">
-                                    <a rel="noopener noreferrer"  target="_blank" href={data.link} className="no-underline  py-2 px-4 md:px-8 bg-gray-800 text-lg  text-red-100 rounded-lg"><span className="btn-shine"> Live demo </span></a>
-                                    <a rel="noopener noreferrer"  target="_blank" href={data.codeUrl} className="no-underline  py-2 px-4 md:px-8 bg-gray-800 text-lg  text-red-100 rounded-lg ">View Code</a>
+                                    <a rel="noopener noreferrer" target="_blank" href={data.link} className="no-underline  py-2 px-4 md:px-8 bg-gray-800 text-lg  text-red-100 rounded-lg"><span className="btn-shine"> Live demo </span></a>
+                                    <a rel="noopener noreferrer" target="_blank" href={data.codeUrl} className="no-underline  py-2 px-4 md:px-8 bg-gray-800 text-lg  text-red-100 rounded-lg ">View Code</a>
 
                                 </div>
                             </div>
