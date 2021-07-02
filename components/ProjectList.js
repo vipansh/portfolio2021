@@ -61,6 +61,24 @@ export const ProjectList = () => {
             link: "https://light-out-game-vipansh.vercel.app/",
             codeUrl: "https://github.com/vipansh/light-out-game",
         },
+        {
+            id: "7",
+            imgUrl: "/assets/spacex.png",
+            name: "SpaceX Dashbord",
+            about: "An Dashbord Made with the help of SpaceX API",
+            stack: ["ReactJS"],
+            codeUrl: "https://github.com/vipansh/spacex-internship-challenge-for-vipansh",
+            link: "https://spacex-internship-challenge-for-vipansh.vercel.app/",
+        },
+        {
+            id: "8",
+            imgUrl: "/assets/desktop-design.png",
+            name: "Job listings with filtering",
+            about: "In this challenge by frontendmentor.io,using JavaScript to filter out jobs based on the categories selected.",
+            stack: ["ReactJS"],
+            codeUrl: "https://job-listings-git-main-vipansh.vercel.app/",
+            link: "https://github.com/vipansh/Job-listings",
+        },
     ];
 
     return (
@@ -78,7 +96,7 @@ export const ProjectList = () => {
                                         {" "}
                                         <img
                                             alt={data.name}
-                                            className="object-cover object-center w-full h-full block"
+                                            className="object-cover object-center w-full h-full block max-h-80"
                                             src={data.imgUrl}
                                         />
                                     </a>
