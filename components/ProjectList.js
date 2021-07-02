@@ -4,6 +4,15 @@ import React from "react";
 export const ProjectList = () => {
     const data = [
         {
+            id: "6",
+            imgUrl: "/assets/merngsocialmedia.png",
+            name: "Uplode Status",
+            about: "An MERN social media app",
+            stack: ["ReactJS","Graphql","MongoDB"],
+            codeUrl: "https://github.com/vipansh/mydukan",
+            link: "https://github.com/vipansh/merng-socialmedia",
+        },
+        {
             id: "1",
             imgUrl: "/assets/dukan.png",
             name: "My Dukan",
@@ -96,7 +105,7 @@ export const ProjectList = () => {
                                         href={data.link}
                                         className="no-underline relative   py-2 px-4 md:px-8 bg-gray-800 text-lg  text-red-100 rounded-lg"
                                     >
-                                        <span class="animate-ping absolute inline-flex h-4 w-4 rounded-full bg-purple-400 opacity-75"></span>
+                                        <span className="animate-ping absolute inline-flex h-4 w-4 rounded-full bg-purple-400 opacity-75"></span>
                                         Live demo
                                     </a>
                                     <a
