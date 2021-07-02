@@ -69,10 +69,10 @@ export const ProjectList = () => {
                 <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900    flex justify-center align-center my-4">
                     Stuff I've Built
                 </h1>
-                <div className="flex flex-wrap md:m-4">
+                <div className="grid grid-cols-3 gap-4">
                     {data.map((data, i) => {
                         return (
-                            <div className="lg:w-1/2 md:w-full  md:p-12 my-4  w-full" key={i}>
+                            <div className="w-full  md:p-4 my-4  " key={i}>
                                 <div className="block relative  rounded-md overflow-hidden">
                                     <a rel="noopener noreferrer" target="_blank" href={data.link}>
                                         {" "}
