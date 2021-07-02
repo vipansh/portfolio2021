@@ -9,8 +9,8 @@ export const ProjectList = () => {
             name: "Uplode Status",
             about: "An MERN social media app",
             stack: ["ReactJS","Graphql","MongoDB"],
-            codeUrl: "https://github.com/vipansh/mydukan",
-            link: "https://github.com/vipansh/merng-socialmedia",
+            codeUrl: "https://github.com/vipansh/merng-socialmedia",
+            link: "https://merng-socialmedia.vercel.app/",
         },
         {
             id: "1",
