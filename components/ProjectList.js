@@ -87,7 +87,7 @@ export const ProjectList = () => {
                 <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900    flex justify-center align-center my-4">
                     Stuff I've Built
                 </h1>
-                <div className="grid grid-cols-3 gap-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                     {data.map((data, i) => {
                         return (
                             <div className="w-full  md:p-4 my-4  " key={i}>
