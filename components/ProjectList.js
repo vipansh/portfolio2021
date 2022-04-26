@@ -121,7 +121,7 @@ export const ProjectList = () => {
                                         rel="noopener noreferrer"
                                         target="_blank"
                                         href={data.link}
-                                        className="no-underline relative   py-2 px-4 md:px-8 bg-gray-800 text-lg  text-red-100 rounded-lg"
+                                        className="no-underline relative m-2  py-2 px-4 md:px-8 bg-gray-800 text-lg  text-red-100 rounded-lg"
                                     >
                                         <span className="animate-ping absolute inline-flex h-4 w-4 rounded-full bg-purple-400 opacity-75"></span>
                                         Live demo
@@ -130,7 +130,7 @@ export const ProjectList = () => {
                                         rel="noopener noreferrer"
                                         target="_blank"
                                         href={data.codeUrl}
-                                        className="no-underline  py-2 px-4 md:px-8 bg-gray-800 text-lg  text-red-100 rounded-lg "
+                                        className="no-underline m-2 py-2 px-4 md:px-8 bg-gray-800 text-lg  text-red-100 rounded-lg "
                                     >
                                         View Code
                                     </a>

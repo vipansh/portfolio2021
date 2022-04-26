@@ -11,7 +11,7 @@ export const HeroSection = () => {
                  </h1>
                     <p className="mb-8 leading-relaxed"></p>
                     <div className="flex justify-center relative z-10">
-                        <a className="cursor-pointer" href="https://drive.google.com/file/d/1R0vwMoyBxZc-Gk50KiJa1YYNzhUVVvZN/view?usp=sharing" target="_blank" className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">My Resume</a>
+                        <a className="cursor-pointer" href="https://drive.google.com/file/d/1sY2DeFGH8fsa6_bdiQ9EAkxfnbjIosAg/view?usp=sharing" target="_blank" className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">My Resume</a>
 
                     </div>
                 </div>
