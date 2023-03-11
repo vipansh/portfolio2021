@@ -4,6 +4,14 @@ import React from "react";
 export const ProjectList = () => {
     const data = [
         {
+            id: "7",
+            imgUrl: "/assets/redflagai.png",
+            name: "RedflagAI",
+            about: "Revolutionize your legal document review process with -RedFlagAI",
+            stack: ["NextTS","Supabase","GPT-3"],
+            link: "https://www.redflagai.in/",
+        },
+        {
             id: "6",
             imgUrl: "/assets/merngsocialmedia.png",
             name: "Uplode Status",
