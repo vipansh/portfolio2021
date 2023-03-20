@@ -90,55 +90,55 @@ export const ProjectList = () => {
     ];
 
     return (
-        <section className="text-gray-300 body-font">
+        <section className="bg-gray-50 min-h-screen">
             <div className="container px-5 py-24 mx-auto">
-                <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900    flex justify-center align-center my-4">
+                <h1 className="sm:text-4xl text-3xl font-bold title-font text-gray-900 text-center mb-12">
                     Stuff I've Built
                 </h1>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
                     {data.map((data, i) => {
                         return (
-                            <div className="w-full  md:p-4 my-4  " key={i}>
-                                <div className="block relative  rounded-md overflow-hidden">
+                            <div className="w-full p-4 my-4 bg-white shadow-lg rounded-lg" key={i}>
+                                <div className="block relative rounded-md overflow-hidden">
                                     <a rel="noopener noreferrer" target="_blank" href={data.link}>
-                                        {" "}
                                         <img
                                             alt={data.name}
-                                            className="object-cover object-center w-full h-full block max-h-80"
+                                            className="object-cover object-center w-full h-full block max-h-60"
                                             src={data.imgUrl}
                                         />
                                     </a>
                                 </div>
                                 <div className="mt-4">
-                                    <h2 className="text-gray-900 title-font  font-bold text-xl ">
+                                    <h2 className="text-gray-900 title-font font-bold text-xl">
                                         {data.name}
                                     </h2>
                                     <h2 className="text-gray-800 title-font text-lg font-medium lg:min-h-14">
                                         {data.about}
                                     </h2>
-                                    {data.stack.map((stack, i) => {
-                                        return (
-                                            <span className="m-1 text-sm text-gray-700" key={i}>
-                                                {stack}
-                                            </span>
-                                        );
-                                    })}
+                                    <div className="flex flex-wrap mt-2">
+                                        {data.stack.map((stack, i) => {
+                                            return (
+                                                <span className="m-1 mt-2 text-sm text-gray-700 bg-gray-200 p-1 rounded" key={i}>
+                                                    {stack}
+                                                </span>
+                                            );
+                                        })}
+                                    </div>
                                 </div>
-                                <div className="flex justify-between my-2">
+                                <div className="flex justify-between my-4">
                                     <a
                                         rel="noopener noreferrer"
                                         target="_blank"
                                         href={data.link}
-                                        className="no-underline relative m-2  py-2 px-4 md:px-8 bg-gray-800 text-lg  text-red-100 rounded-lg"
+                                        className="no-underline relative m-2 py-2 px-4 bg-indigo-500 hover:bg-indigo-600 text-lg text-white font-semibold rounded-lg"
                                     >
-                                        <span className="animate-ping absolute inline-flex h-4 w-4 rounded-full bg-purple-400 opacity-75"></span>
                                         Live demo
                                     </a>
                                     <a
                                         rel="noopener noreferrer"
                                         target="_blank"
                                         href={data.codeUrl}
-                                        className="no-underline m-2 py-2 px-4 md:px-8 bg-gray-800 text-lg  text-red-100 rounded-lg "
+                                        className="no-underline m-2 py-2 px-4 bg-indigo-500 hover:bg-indigo-600 text-lg text-white font-semibold rounded-lg"
                                     >
                                         View Code
                                     </a>
@@ -150,4 +150,5 @@ export const ProjectList = () => {
             </div>
         </section>
     );
+    
 };
