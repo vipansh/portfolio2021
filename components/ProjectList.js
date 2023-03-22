@@ -12,6 +12,15 @@ export const ProjectList = () => {
             link: "https://www.redflagai.in/",
         },
         {
+            id: "7",
+            imgUrl: "/assets/react-doc-gpt.png",
+            name: "React doc gpt",
+            about: "a project that leverages OpenAI's embedding model to provide the most recent React insights.",
+            stack: ["NextTS","Supabase","GPT-3"],
+            link: "https://react-doc-gpt.vercel.app/",
+            codeUrl: "https://github.com/vipansh/react-doc-gpt",
+        },
+        {
             id: "6",
             imgUrl: "/assets/merngsocialmedia.png",
             name: "Uplode Status",
