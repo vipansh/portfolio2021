@@ -11,7 +11,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Vipansh Thakur | Front End Developer  </title>
-        <link rel="icon" href="/vip_fc.jpg" />
+        <link rel="icon" href="assets/mypic.png" />
       </Head>
       <div className="bg-red-300">
 

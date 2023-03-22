@@ -20,7 +20,7 @@ export const HeroSection = () => {
           </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-          <img className="relative object-cover object-center rounded-full border-8 border-cyan-200 cursor-none z-10" alt="hero" src="assets/mypic.jpeg" />
+          <img className="relative object-cover object-center rounded-full border-8 border-cyan-200 cursor-none z-10" alt="hero" src="assets/mypic.png" />
         </div>
       </div>
     </section>
