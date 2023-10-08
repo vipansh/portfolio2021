@@ -93,8 +93,8 @@ export const ProjectList = () => {
             name: "Job listings with filtering",
             about: "In this challenge by frontendmentor.io,using JavaScript to filter out jobs based on the categories selected.",
             stack: ["ReactJS"],
-            codeUrl: "https://job-listings-git-main-vipansh.vercel.app/",
-            link: "https://github.com/vipansh/Job-listings",
+            link : "https://job-listings-git-main-vipansh.vercel.app/",
+            codeUrl  : "https://github.com/vipansh/Job-listings",
         },
     ];
 
